@@ -74,6 +74,10 @@ p {
   margin: 0;
 }
 
+.main-page-wrapper {
+  background: url(../img/fon-header.jpg) center top no-repeat, url(../img/fon-main.jpg) center bottom 100px no-repeat;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
