@@ -252,12 +252,15 @@ p {
   font-weight: 700;
 }
 
+.catalog__content-list {
+  margin-bottom: 25px;
+}
+
 .catalog__content-item {
   position: relative;
 
   display: inline-block;
   margin-right: 38px;
-  margin-bottom: 25px;
   padding-left: 36px;
 
   font-size: 16px;
@@ -348,15 +351,26 @@ p {
 }
 
 .news__item {
+  position: relative;
+
   display: inline-block;
   width: 557px;
   min-height: 394px;
-  padding: 255px 40px 25px 30px;
   margin-right: 25px;
   border-radius: 5px;
 
   font-size: 14px;
   vertical-align: top;
+}
+
+.news__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  min-height: 130px;
+  padding: 25px 30px;
 }
 
 .news__item--left {
@@ -372,10 +386,13 @@ p {
 }
 
 time {
+  display: block;
   margin-bottom: 12px;
 }
 
 .news__body-caption {
+  margin-bottom: 5px;
+
   font-size: 24px;
   font-weight: 700;
 }
@@ -448,7 +465,7 @@ time {
 
   width: 785px;
   height: 455px;
-  padding: 70px 200px 0 80px;
+  padding: 70px 200px 67px 80px;
 
   background-color: #ffffff;
   background-image: url(../img/mountains.jpg);
@@ -529,7 +546,7 @@ time {
 .footer .social {
   position: absolute;
   top: 32px;
-  left: 730px;
+  right: 240px;
 }
 
 .footer .social__item {
