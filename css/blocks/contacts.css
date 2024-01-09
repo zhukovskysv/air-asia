@@ -1,0 +1,15 @@
+.contacts {
+  font-style: normal;
+}
+
+.contacts__link {
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.contacts__text {
+  margin: 0;
+
+  font-size: 13px;
+  text-align: right;
+}

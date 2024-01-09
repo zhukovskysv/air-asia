@@ -1,0 +1,17 @@
+.footer .container {
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  height: 140px;
+}
+
+.footer .logo {
+  margin-right: 80px;
+}
+
+.footer .nav {
+  margin-right: 280px;
+}
+
+.footer .contacts {
+  margin-left: auto;
+}
