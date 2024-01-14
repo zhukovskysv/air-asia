@@ -6,91 +6,229 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Air Asia</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper services-wrapper">
 
-    <header class="header">
+    <header class="header header-services">
+      <div class="container">
+        <a class="logo" href="#">
+          <img class="logo__img" src="img/logo-air-asia.png" width="85" height="36" alt="Логотип Air Asia">
+        </a>
 
-      <a class="logo" href="#">
-        <img class="logo__img" src="img/logo-air-asia.png" width="85" height="36" alt="Логотип Air Asia">
-      </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#">Главная</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Услуги</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Отзывы</a>
-          </li>
-        </ul>
-      </nav>
-
-      <address class="contacts">
-        <a class="contacts__link" href="tel:88007003030">8 800 700 30 30</a>
-        <p class="contacts__text">График работы</p>
-      </address>
-
+        <address class="contacts">
+          <a class="contacts__link" href="tel:88007003030">8 800 700 30 30</a>
+          <p class="contacts__text">График работы</p>
+        </address>
+      </div>
     </header>
 
     <main class="main">
+      <section class="services-top-line">
+        <div class="container services-top-line__container">
+
+          <h1 class="services-title services-top-line__services-title">Услуги</h1>
+
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Главная</a>
+              </li>
+              <li class="breadcrumbs__item breadcrumbs__item--active">
+                <a class="breadcrumbs__link" href="#">Услуги</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="services-catalog">
+        <div class="container services-catalog__container">
+
+          <ul class="services-catalog__list">
+            <li class="services-catalog__item">
+              <div class="services-catalog__pic">
+                <img class="services-catalog__pic-elem" src="./img/waterfall.jpg" width="460" height="333" alt="Фото">
+              </div>
+              <div class="services-catalog__body">
+                <h2 class="services-catalog__title">Водопад Янг-бей</h2>
+                <p>
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                  менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                  выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                  универсальный код речей.
+                </p>
+                <a class="services-catalog__btn services-catalog__btn--active" href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="services-catalog__item">
+              <div class="services-catalog__pic">
+                <img class="services-catalog__pic-elem" src="./img/monkeys.jpg" width="460" height="333" alt="Фото">
+              </div>
+              <div class="services-catalog__body">
+                <h2 class="services-catalog__title">Остров обезьян</h2>
+                <p>
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                  менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                  выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                  универсальный код речей.
+                </p>
+                <a class="services-catalog__btn" href="#">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="paginator">
+            <p class="paginator__text">
+              Страница 1 из 7
+            </p>
+            <ul class="paginator__list">
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">1</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">2</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">3</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">4</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">5</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">6</a>
+              </li>
+              <li class="paginator__item">
+                <a class="paginator__link" href="#">7</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="services-partners">
+        <div class="container">
+
+          <h2 class="services-partners__title">Партнеры</h2>
+
+          <ul class="services-partners__list">
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/pobeda.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/s7.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/lets-fly.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/lufthansa.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/airbaltic.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/pegasus.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/ural.png" alt="Логотип компании победа">
+              </a>
+            </li>
+            <li class="services-partners__item">
+              <a class="services-partners__link" href="#">
+                <img class="services-partners__pic" src="./img/pegas.png" alt="Логотип компании победа">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
     </main>
 
     <footer class="footer">
+      <div class="container">
+        <a class="logo" href="#">
+          <img class="logo__img" src="img/logo-air-asia.png" width="85" height="36" alt="Логотип Air Asia">
+        </a>
 
-      <a class="logo" href="#">
-        <img class="logo__img" src="img/logo-air-asia.png" width="85" height="36" alt="Логотип Air Asia">
-      </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#">Главная</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Услуги</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Отзывы</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link" href="#">
-              <img class="social__img" src="img/telegram.png" width="36" height="36" alt="ссылка на telegram">
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">
-              <img class="social__img" src="img/vk.png" width="36" height="36" alt="ссылка на ВКонтакт">
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">
-              <img class="social__img" src="img/fb.png" width="36" height="36" alt="ссылка на fecebook">
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">
-              <img class="social__img" src="img/instagram.png" width="36" height="36" alt="ссылка на instagram">
-            </a>
-          </li>
-        </ul>
+        <div class="social">
+          <ul class="social__list">
+            <li class="social__item social__item--icon--telegram">
+              <a class="social__link" href="#">
+                <!-- <img class="social__img" src="img/telegram.png" width="36" height="36" alt="ссылка на telegram"> -->
+              </a>
+            </li>
+            <li class="social__item social__item--icon--vk">
+              <a class="social__link" href="#">
+                <!-- <img class="social__img" src="img/vk.png" width="36" height="36" alt="ссылка на ВКонтакт"> -->
+              </a>
+            </li>
+            <li class="social__item social__item--icon--fecebook">
+              <a class="social__link" href="#">
+                <!-- <img class="social__img" src="img/fb.png" width="36" height="36" alt="ссылка на fecebook"> -->
+              </a>
+            </li>
+            <li class="social__item social__item--icon--instagram">
+              <a class="social__link" href="#">
+                <!-- <img class="social__img" src="img/instagram.png" width="36" height="36" alt="ссылка на instagram"> -->
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <address class="contacts">
+          <p class="contacts__text">Бесплатный звонок по России</p>
+          <a class="contacts__link" href="tel:88007003030">8 800 700 30 30</a>
+        </address>
       </div>
-
-      <address class="contacts">
-        <p class="contacts__text">Бесплатный звонок по России</p>
-        <a class="contacts__link" href="tel:88007003030">8 800 700 30 30</a>
-      </address>
-
     </footer>
 
   </div>

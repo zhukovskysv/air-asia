@@ -1,0 +1,28 @@
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  color: #9a9a9a;
+}
+
+.breadcrumbs__item--active {
+  font-weight: 700;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+}
+
+.breadcrumbs__item--active::after {
+  display: none;
+}
+
+.breadcrumbs__link:hover {
+  color: #DA0100;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link:hover {
+  color: #9a9a9a;
+}

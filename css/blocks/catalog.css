@@ -30,22 +30,13 @@
 
 .catalog__list {
   display: flex;
+  justify-content: space-between;
 }
 
 .catalog__card {
-  width: 362px;
-  margin-right: 27px;
+  width: calc(100% / 3 - 18px);
+  min-height: 449px;
   border-radius: 5px;
-
-  font-size: 14px;
-}
-
-.catalog__card:last-child {
-  margin-right: 0;
-}
-
-.catalog__img {
-  display: block;
 }
 
 .catalog__content {

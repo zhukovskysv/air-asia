@@ -1,9 +1,13 @@
 .header {
-  margin-bottom: 85px;
+  padding-top: 30px;
+  margin-bottom: 120px;
+}
+
+.header-services {
+  margin-bottom: 100px;
 }
 
 .header .container {
-  min-height: 110px;
   align-items: center;
 }
 

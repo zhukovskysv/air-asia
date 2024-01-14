@@ -7,11 +7,12 @@
 }
 
 .info__title {
-  width: 510px;
+  width: 45%;
   margin-bottom: 20px;
 
   font-size: 72px;
   font-weight: 700;
+  line-height: 1.4;
 }
 
 .info__text {
