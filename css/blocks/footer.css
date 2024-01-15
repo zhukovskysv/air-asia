@@ -1,7 +1,15 @@
 .footer .container {
   align-items: center;
+}
+
+.footer-page__container {
   border-top: 1px solid rgba(255, 255, 255, .1);
   height: 140px;
+}
+
+.footer-services__container {
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .footer .logo {

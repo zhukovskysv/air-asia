@@ -1,3 +1,39 @@
 .services-partners {
-  background-color: #9a9a9a;
+  background-color: #F4F5F5;
+}
+
+.services-partners__title {
+  margin-bottom: 80px;
+
+  font-size: 48px;
+  font-weight: 700;
+  color: #1A1B1E;
+}
+
+.services-partners__container {
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.services-partners__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-partners__item {
+  margin-left: 46px;
+}
+
+.services-partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+.services-partners__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 100px;
 }
