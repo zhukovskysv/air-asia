@@ -1,11 +1,6 @@
-.services-top-line {
-  padding-bottom: 25px;
-}
-
-.services-top-line__services-title {
-  margin-bottom: 88px;
-}
-
 .services-top-line__container {
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 412px;
+  padding-bottom: 25px;
 }

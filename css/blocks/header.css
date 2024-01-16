@@ -1,13 +1,20 @@
 .header {
   padding-top: 30px;
+}
+
+.header-page {
   margin-bottom: 120px;
 }
 
 .header-services {
-  margin-bottom: 100px;
+  display: flex;
 }
 
 .header .container {
+  align-items: center;
+}
+
+.header-services {
   align-items: center;
 }
 

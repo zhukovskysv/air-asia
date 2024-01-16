@@ -6,13 +6,9 @@
   margin-bottom: 245px;
 }
 
-.info__title {
+.info__page-title {
   width: 45%;
   margin-bottom: 20px;
-
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 1.4;
 }
 
 .info__text {

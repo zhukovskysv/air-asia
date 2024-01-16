@@ -31,6 +31,16 @@ body {
   flex-direction: column;
 }
 
+.wrapper-greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background: url('../../img/greetings-bg.jpg') no-repeat;
+}
+
 .footer {
   margin-top: auto;
 }
