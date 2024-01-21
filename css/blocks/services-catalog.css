@@ -50,31 +50,6 @@
   color: #303030;
 }
 
-.services-catalog .paginator {
-  color: #000;
-}
-
-.services-catalog .paginator__link:hover {
-  color: #ffffff;
-
-  background-color: #F5170E;
-}
-
 .services-catalog__btn {
-  display: inline-block;
   padding: 20px 40px;
-
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 35px;
-
-  background-color: #F5170E;
-}
-
-.services-catalog__btn--active {
-  color: #F5170E;
-  border: 1px solid #F5170E;
-
-  background-color: #ffffff;
 }

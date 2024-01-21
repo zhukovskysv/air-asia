@@ -106,29 +106,5 @@
 }
 
 .catalog__content-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 135px;
-  height: 55px;
-  border-radius: 35px;
-
-  color: #ffffff;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  background-color: #F5170E;
-}
-
-.catalog__content-btn:hover {
-  color: #ffffff;
-
-  background-color: #DA0100;
-}
-
-.catalog__content-btn--active {
-  color: #F5170E;
-  border: 1px solid #F5170E;
-
-  background-color: #ffffff;
+  padding: 18px 30px;
 }

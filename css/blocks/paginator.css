@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: #000;
 }
 
 .paginator__text {
@@ -27,7 +29,15 @@
 }
 
 .paginator__link:hover {
+  transition: .7s;
+  color: #fff;
+
+  background-color: #F5170E;
+}
+
+.paginator__link:active {
   color: #F5170E;
+  box-shadow: 0 0 0 1px #F5170E;
 
   background-color: #ffffff;
 }

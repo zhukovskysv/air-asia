@@ -1,0 +1,26 @@
+.btn {
+  display: inline-flex;
+  border-radius: 35px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+
+  background-color: #F5170E;
+}
+
+.btn:hover {
+  transition: .7s;
+  background-color: #DA0100;
+}
+
+.btn:active {
+  color: #F5170E;
+  box-shadow: 0 0 0 1px #F5170E;
+
+  background-color: #ffffff;
+}
+
+.btn--bg--black {
+  background-color: #2B2B2B;
+}

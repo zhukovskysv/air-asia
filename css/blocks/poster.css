@@ -1,0 +1,16 @@
+.poster {
+  background-image: url('../../img/fon2-reviews.jpg');
+  background-repeat: no-repeat;
+}
+
+.poster__container {
+  min-height: 363px;
+  align-items: center;
+}
+
+.poster__text {
+  width: 595px;
+
+  font-size: 48px;
+  font-weight: 700;
+}

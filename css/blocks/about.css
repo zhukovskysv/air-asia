@@ -44,20 +44,6 @@
   color: #000000;
 }
 
-.about__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 168px;
-  height: 55px;
-  border-radius: 35px;
-
-  font-weight: 700;
-  text-transform: uppercase;
-
-  background-color: #F5170E;
-}
-
-.about__link:hover {
-  background-color: #DA0100;
+.about__btn {
+  padding: 18px 40px;
 }
