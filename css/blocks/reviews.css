@@ -61,8 +61,8 @@
   width: 30px;
   height: 30px;
 
-  background-image: url('../../img/vk-blue.png');
-  background-repeat: no-repeat;
+  background-image: url('../../img/css_sprites.png');
+  background-position: -178px -10px;
 }
 
 .reviews__tags {

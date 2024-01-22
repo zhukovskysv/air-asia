@@ -25,7 +25,8 @@
   width: 21px;
   height: 28px;
 
-  background-image: url('../../img/flame.png');
+  background-image: url('../../img/css_sprites.png');
+  background-position: -178px -106px;
 }
 
 .catalog__list {
@@ -83,7 +84,8 @@
   width: 26px;
   height: 26px;
 
-  background-image: url('../../img/calendar.png');
+  background-image: url('../../img/css_sprites.png');
+  background-position: -178px -60px;
 }
 
 .catalog__content-item--meal::before {
@@ -96,7 +98,8 @@
   width: 36px;
   height: 26px;
 
-  background-image: url('../../img/meal.png');
+  background-image: url('../../img/css_sprites.png');
+  background-position: -122px -122px;
 }
 
 .catalog__content-text {
