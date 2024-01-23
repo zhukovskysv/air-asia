@@ -15,12 +15,11 @@
   text-align: right;
 }
 
-.contacts:hover .dropdown {
-  right: 0;
-  opacity: 1;
+.dropdown {
+  position: relative;
 }
 
-.dropdown {
+.dropdown__list {
   position: absolute;
   top: 100%;
   right: -777px;
@@ -37,7 +36,7 @@
   background-color: #EDEDED;
 }
 
-.dropdown::before {
+.dropdown__list::before {
   content: "";
   position: absolute;
   left: 0;
@@ -48,7 +47,7 @@
   height: 30px;
 }
 
-.dropdown::after {
+.dropdown__list::after {
   content: "";
   position: absolute;
   top: -10px;
@@ -59,4 +58,9 @@
   width: 0;
   height: 0;
   border-bottom-color: #EDEDED;
+}
+
+.dropdown:hover .dropdown__list {
+  right: 0;
+  opacity: 1;
 }
