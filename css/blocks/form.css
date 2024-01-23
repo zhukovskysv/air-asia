@@ -81,7 +81,11 @@
 
 .controls__btn {
   padding: 18px 45px;
-  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.controls__btn:last-child {
+  margin-right: 0;
 }
 
 .form__row-btn {

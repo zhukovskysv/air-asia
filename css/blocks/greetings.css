@@ -6,7 +6,8 @@
   padding-left: 155px;
   padding-right: 155px;
 
-  background: url('../../img/shades-logo.png') no-repeat;
+  background-image: url('../../img/shades-logo.png');
+  background-repeat: no-repeat;
 }
 
 .greetings__text {

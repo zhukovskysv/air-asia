@@ -46,7 +46,8 @@
 }
 
 .reviews__name-elem {
-  position: relative;
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
 
   font-size: 24px;
@@ -54,15 +55,8 @@
 }
 
 .reviews__name-elem::after {
-  content: "";
-  position: absolute;
-  top: 5px;
-  right: -35px;
-  width: 30px;
-  height: 30px;
-
-  background-image: url('../../img/css_sprites.png');
-  background-position: -178px -10px;
+  content:  url("../../img/vk-blue.png");
+  height: 29px;
 }
 
 .reviews__tags {

@@ -19,3 +19,7 @@
   transition: .7s;
   color: #DA0100;
 }
+
+.nav__link--active {
+  color: #DA0100;
+}
